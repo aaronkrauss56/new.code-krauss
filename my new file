@@ -1,0 +1,29 @@
+from tkinter import *
+
+
+top = tk()
+
+def results ():
+    result = EL.get()
+    print (result)
+    print(type(result))
+
+
+
+#this is a label widget
+L1 = label (top, text+"hello,world!"
+L1.grid(column= 0, row+1)
+
+
+
+# this is an entry widget
+E1 = entry(top,bd =5)
+E1.grid(column= 0, row= 2)
+
+
+# this is a button widget
+B1 = button(text= "   + song  ", command=result
+B1.grid(column= 0, row= 3)
+
+
+top.mainloop()    
