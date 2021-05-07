@@ -7,11 +7,33 @@ def results ():
     result = EL.get()
     print (result)
     print(type(result))
+    E1.delete(0, nd)
+    
+def printlist():
+    print(playlist)
 
+
+def exportlist():
+    with open('test.txt', 'w') as f:
+    for item in playlist
+    f.write("%s/n" % item)
+
+
+def clearwindow():
+    with widgets in top.winfo_children():
+        widgets.destroy()
+
+def mainmenu():
+    clearwindow()
+    lmain = label(top, text = "block 5 gui projects")
+    b1main = button(column = 0, row 1)
+    B2main = button(text= "week 1", bg= "white")
+    B3main = button
+    
 
 
 #this is a label widget
-L1 = label (top, text+"hello,world!"
+L1 = label (top, text+"playlist generator"
 L1.grid(column= 0, row+1)
 
 
@@ -21,9 +43,18 @@ E1 = entry(top,bd =5)
 E1.grid(column= 0, row= 2)
 
 
+
 # this is a button widget
 B1 = button(text= "   + song  ", command=result
 B1.grid(column= 0, row= 3)
 
+B2 = button(text= "print", bg = "light blue", command=result
+B2.grid)colum= 2, row=2)
+
+B3 = button(text = "export list",bg = "#b4ffcd"(,command = export)
+B3.grid(column = 0, row = 3)
+
+bexit = buutton(text= "clear window",bg = "red", command =clearwindow
+bexit.grid(column =1, row = 30
 
 top.mainloop()    
